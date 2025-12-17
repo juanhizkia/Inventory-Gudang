@@ -1,26 +1,34 @@
-# 📦 Inventory Sederhana (Python)
+# 📦 Inventory Gudang Sederhana (Python)
 
-Project ini adalah **program inventory sederhana berbasis console** yang dibuat menggunakan bahasa **Python**.  
-Cocok untuk pemula yang ingin belajar **struktur data, function, dan logika program**.
+Project ini adalah **program inventory gudang sederhana berbasis console**  
+yang dibuat menggunakan **bahasa pemrograman Python** dan **struktur data dictionary**.
+
+Program ini dapat:
+- Menampilkan data barang
+- Menambah barang ke inventory
+- Menghapus barang dari inventory
 
 ---
 
-## ✨ Fitur
-- Menampilkan daftar barang
-- Menambah barang ke inventory
-- Menghapus barang dari inventory
-- Struktur data sederhana dan mudah dipahami
+## 🎯 Tujuan Program
+- Membantu pengelolaan stok barang gudang
+- Melatih penggunaan dictionary dan function di Python
+- Membuat program menu interaktif berbasis console
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+- Python 3.x
+- Terminal / Command Prompt
+- Struktur Data: Dictionary
 
 ---
 
 ## 🧠 Struktur Data
-Inventory disimpan menggunakan **dictionary bersarang**:
+Program menggunakan dictionary untuk menyimpan data barang:
 
 ```python
 inventory = {
-    "BRG001": {
-        "nama": "Pensil",
-        "stok": 100,
-        "harga": 2000
-    }
+    "Beras": 50,
+    "Gula": 30
 }
