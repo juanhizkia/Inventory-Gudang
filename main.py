@@ -1,4 +1,4 @@
-# Inventory sederhana menggunakan dictionary
+# Inventory sederhana menggunakan pyhton
 inventory = {}
 
 def tampilkan_inventory():
